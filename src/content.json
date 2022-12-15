@@ -1,0 +1,246 @@
+{
+    "name": "What will you be using the funding for?",
+    "children": [
+        {
+            "name": "Starting a business",
+            "children": [
+                {
+                    "name": "How much funding do you need?",
+                    "children": [
+                        {
+                            "name": "$0-150k",
+                            "children": [
+                                {
+                                    "name": "What is your credit score?",
+                                    "children": [
+                                        {
+                                            "name": "680+",
+                                            "children": [{"name": "Submit to \n - Torro \n - NCC"}]
+                                        },
+                                        {
+                                            "name": "650-680",
+                                            "children": [{"name": "Submit to 7 Figure Funding"}]
+                                        },
+                                        {
+                                            "name": "Less than 650",
+                                            "children": [{"name": "Submit to \n 1. Credit Repair \n 2. 7 Figure Funding. \n 3. Submit to \n\t-Torro \n\t-NCC \n\n OR \n Get a cosigner with 680+ credit. \n Submit to \n\t-Torro \n\t-NCC"}]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "150k+",
+                            "children": [{"name": "Will most likely need investors or venture capital"}]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fund a current business",
+            "children": [
+                {
+                    "name": "How long have you been in business?",
+                    "children": [
+                        {
+                            "name": "Less than 4 months",
+                            "children": [{"name": "See Starting a business section"}]
+                        },
+                        {
+                            "name": "4-24 months",
+                            "children": [
+                                {
+                                    "name": "Is the amount they are requesting more than their monthly revenue?",
+                                    "children": [
+                                        {
+                                            "name": "No",
+                                            "children": [
+                                                {
+                                                    "name": "How soon do you need the funding?",
+                                                    "children":[
+                                                        {
+                                                            "name": "ASAP",
+                                                            "children": [
+                                                                {"name": "Submit for a MCA"}
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "No rush",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Do you have real estate?",
+                                                                    "chldren": [
+                                                                        {
+                                                                            "name": "Yes",
+                                                                            "children": "Go to real estate section"
+                                                                        },
+                                                                        {
+                                                                            "name": "No",
+                                                                            "children": "Submmit to ARF Financial"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                             ]
+                                        },
+                                        {
+                                            "name": "TODO: build connector to above node..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "24+ months",
+                            "children": [
+                                {
+                                    "name": "Is the amount they are requesting more than their monthly revenue?",
+                                    "children": [
+                                        {
+                                            "name": "No",
+                                            "children": [
+                                                {
+                                                    "name": "Submit for MCA or Term Loan or Business LOC or ARF financial if over 650 credit"
+                                                }
+                                            ]
+                                        }, 
+                                        {
+                                            "name": "Yes",
+                                            "children": [
+                                                {
+                                                    "name": "Submit for SBA or Term Loan or ARF financial or Business LOC with Idea Financial if over 680 credit"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Purchase Real Estate",
+            "children": [
+                {
+                    "name": "What is the client looking to do with real estate?",
+                    "children": [
+                        {
+                            "name": "Get funding using real estate",
+                            "children": [
+                                {
+                                    "name": "Does the real estate have equity",
+                                    "children": [
+                                        {
+                                            "name": "Yes",
+                                            "children": [
+                                                {
+                                                    "name": "Submit to WBL"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "No",
+                                            "children": [
+                                                {
+                                                    "name":"Go to starting a business section"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Purchase Real Estate",
+                            "children": [
+                                {
+                                    "name": "How much is the real estate?",
+                                    "children": [
+                                        {
+                                            "name": "Less than 65k",
+                                            "children": [
+                                                {
+                                                    "name": "Go to starting a business section to qualify for a LOC"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "65k+",
+                                            "children": [{"name": "Submit to Velocity Mortgage Capital"}]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Refinance real estate",
+                            "children": [{"name": "Submit to Velocity Mortgage Capital"}]
+                        },
+                        {
+                            "name": "Finance Fix and Flip",
+                            "children": [{"name": "Submit to Lima One"}]
+                        },
+                        {
+                            "name": "Purchase/refinance a home they will live in",
+                            "children": [{"name": "We cannot finance owner occupied real estate"}]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Buy equipment",
+            "children": [
+                {
+                    "name": "How long have you been in business?",
+                    "children": [
+                        {
+                            "name": "Less than 2 years",
+                            "children": [
+                                {
+                                    "name": "Do you have any assets that may be used for funding?",
+                                    "children": [
+                                        {
+                                            "name": "No",
+                                            "children": [{"name": "Go to starting a business section"}]
+                                        },
+                                        {
+                                            "name": "Yes",
+                                            "children": [{"name": "Submit to Paragon or Mertius for asset based financing"}]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "2+ years",
+                            "children": [
+                                {
+                                    "name": "What is your credit score?",
+                                    "children": [
+                                        {
+                                            "name": "Less than 580",
+                                            "children": [{"name": "Check funding current business section"}]
+                                        },
+                                        {
+                                            "name": "580+",
+                                            "children": [{
+                                                "name": "Submit to Everlasting Capital"
+                                            }]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

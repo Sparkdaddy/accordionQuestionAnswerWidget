@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion Widget</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <script type="module" src="../src/accordionWidget.js"></script>
+    <script type="module" src="../src/index.js"></script>
+    <link rel="stylesheet" href="../src/myStyle.css">
+</head>
+<style>
+    .content {
+        margin: auto;
+        width: 50%;
+    }
+</style>
+<body>
+    <template id="template">
+        <div class="is-active root">
+            <div class="card-header">
+                <div class="card-header-title question"></div>
+            </div>
+            <div class="card-content">
+                <ul>
+                    <li class="repeated-items"></li>
+                </ul>
+            </div>
+        </div>
+    </template>
+    <template id="answer-template">
+        <div class="root is-active">
+            <div class="card-content answer">
+            </div>
+        </div>
+    </template>
+
+    <div class="content">
+        <div class="card" id="root-id">
+            <div class="card-header">
+                <p class="card-header-title">Hi</p>
+            </div>
+            <div class="card-header">
+                <p class="card-header-title">Bob</p>
+            </div>
+            <div class="card-content">
+                <div class="content">
+                    My name is jill
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

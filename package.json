@@ -1,0 +1,28 @@
+{
+  "name": "accordion-form-widget",
+  "version": "1.0.0",
+  "description": "Recursively goes through a json structure to create an interactive accordion for users",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watchAll"
+  },
+  "keywords": [
+    "accordion",
+    "vanilla"
+  ],
+  "author": "Austin Sparkman",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1"
+  }
+}

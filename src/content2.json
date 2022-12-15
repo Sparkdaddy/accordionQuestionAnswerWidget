@@ -1,0 +1,167 @@
+{
+    "text": "What will you be using the funding for?",
+    "children": [
+        {
+            "text": "How much funding do you need?",
+            "answer": "Starting a business",
+            "children": [
+                {
+                    "text": "What is your credit score?",
+                    "answer": "$0-150k",
+                    "children": [
+                        {
+                            "text": "Submit to \n - Torro \n - NCC",
+                            "answer": "680+"
+                        },
+                        {
+                            "text": "Submit to 7 Figure Funding",
+                            "answer": "650-680"
+                        },
+                        {
+                            "text": "Submit to \n 1. Credit Repair \n 2. 7 Figure Funding. \n 3. Submit to \n\t-Torro \n\t-NCC \n\n OR \n Get a cosigner with 680+ credit. \n Submit to \n\t-Torro \n\t-NCC",
+                            "answer": "less than 650"
+                        }
+                    ]
+                },
+                {
+                    "text": "Will most likely need investors or venture capital",
+                    "answer": "$150k+"
+                }
+            ]
+        },
+        {
+            "text": "How long have you been in business?",
+            "answer": "Fund a current business",
+            "children": [
+                {
+                    "answer": "Less than 4 months",
+                    "text": "See Starting a business section"
+                },
+                {
+                    "text": "Is the amount they are requesting more than their monthly revenue?",
+                    "answer": "4-24 months",
+                    "children": [
+                        {
+                            "answer": "No",
+                            "text": "How soon do you need funding?",
+                            "children": [
+                                {
+                                    "answer": "ASAP",
+                                    "text": "Submit for a MCA"
+                                },
+                                {
+                                    "answer": "No Rush",
+                                    "text": "Do you have real estate",
+                                    "children": [
+                                        {
+                                            "answer": "Yes",
+                                            "text": "Go to Real Estate Section"
+                                        },
+                                        {
+                                            "answer": "No",
+                                            "text": "Submit to ARF Financial"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "answer": "24+ months",
+                    "text": "Is the amount they are requesting more than their monthly revenue",
+                    "children": [
+                        {
+                            "answer": "No",
+                            "text": "Submit for MCA or Term Loan or Business LOC or ARF financial if over 650 credit"
+                        },
+                        {
+                            "answer": "Yes",
+                            "text": "Submit for SBA or Term Loan or ARF financial or Business LOC with Idea Financial if over 680 credit"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "answer": "Purchase Real Estate",
+            "text": "What is the client looking to do with real estate?",
+            "children": [
+                {
+                    "answer": "Get funding using real estate",
+                    "text": "Does the real estate have equity?",
+                    "children": [
+                        {
+                            "answer": "Yes",
+                            "text": "Submit to WBL"
+                        }, 
+                        {
+                            "answer": "No",
+                            "text": "Go to starting a business section"
+                        }
+                    ]
+                }, 
+                {
+                    "answer": "Purchase real estate",
+                    "text": "How much is the real estate?",
+                    "children": [
+                        {
+                            "answer": "Less than 65k",
+                            "text": "Go to Starting a business section to ualify for a LOC"
+                        },
+                        {
+                            "answer": "65k+",
+                            "text": "Submit to Velocity Mortgage Capital"
+                        }
+                    ]
+                },
+                {
+                    "answer": "Refinance real estate",
+                    "text": "Submit to Velocity Mortgage Capital"
+                },
+                {
+                    "answer": "Finance Fix and Flip",
+                    "text": "Submit to Lima One"
+                },
+                {
+                    "answer": "Purchase/refinance a home they will live in",
+                    "text": "We cannot finance owner occupied real estate"
+                }
+            ]
+        },
+        {
+            "answer": "Buy equipment",
+            "text": "How long have you been in business?",
+            "children": [
+                {
+                    "answer": "Less than 2 years",
+                    "text": "Do you have any assets that may be used for funding?",
+                    "children": [
+                        {
+                            "text": "Go to business starting section",
+                            "answer": "No"
+                        },
+                        {
+                            "text": "Submit to Paragon or Meritus for asset based financing",
+                            "answer": "Yes"
+                        }
+                    ]
+                },
+                {
+                    "answer": "2+ years",
+                    "text": "What is your credit score?",
+                    "children": [
+                        {
+                            "answer": "Less than 580",
+                            "text": "Check funding current business section"
+                        },
+                        {
+                            "answer": "580+",
+                            "text": "Submit for Everlasting Capital"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

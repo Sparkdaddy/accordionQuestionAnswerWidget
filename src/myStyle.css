@@ -1,0 +1,7 @@
+.repeated-items {
+    cursor: pointer;
+}
+
+.question:not(:last-child) {
+    cursor: pointer;
+}
