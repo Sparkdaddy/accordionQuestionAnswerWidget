@@ -2,6 +2,34 @@
     cursor: pointer;
 }
 
-.question:not(:last-child) {
+.content {
+    margin: auto;
+    width: 50%;
+}
+
+
+/* TODO: Change the transition to work independently of this styling */
+.card-content {
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: all 0.26s ease-in;
+    max-height: 500px;
+}
+
+.hiding  {
+    transform: scaleY(0);
+    max-height: 0;
+    padding: 0;
+}
+
+#root-id > :nth-child(even) {
+    background-color: #55B6D1;
+}
+
+#root-id > :nth-child(odd) {
+    background-color: #0898C1;
+}
+
+.root:not(:last-child) .question {
     cursor: pointer;
 }

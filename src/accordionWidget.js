@@ -72,14 +72,13 @@ export class AccordionWidget {
             newChild.querySelector('.answer').textContent = this.currentChild.text;
             root.append(newChild);
         }
-
     }
 
     minimizeLastChild() {
         const root = document.querySelector(`#${this.rootId}`);
         const lastChild = root.lastElementChild;
         lastChild.classList.remove('is-active');
-        this.nearRoot(lastChild).style.display = 'none';
+        this.nearRoot(lastChild).classList.add('hiding');
     }
 
     nearRoot(ele) {
@@ -102,6 +101,7 @@ export class AccordionWidget {
         const lastChild = root.lastElementChild, 
             closeRoot = e.target.closest('.root');
         if (e.target.classList.contains('question') && closeRoot != lastChild) {
+            // Below is removing all elements except the one clicked
             let numToDelete = 0;
             while(root.lastElementChild != closeRoot) {
                 root.removeChild(root.lastElementChild);
@@ -109,10 +109,8 @@ export class AccordionWidget {
             }
             this.locationStack = this.locationStack.slice(0, this.locationStack.length - numToDelete);
             closeRoot.querySelector('.question').textContent = this.currentChild.text;
-            const oldStyleDisplay = window.getComputedStyle(this.nearRoot(document.querySelector('#template').content.children[0])).display;
-            this.nearRoot(closeRoot).style.display = 'flex'
-
-            // TODO compare with popping this question off and readding it again...
+            // switch the styling back to being visible
+            this.nearRoot(closeRoot).classList.remove('hiding');           
         }
         
     }

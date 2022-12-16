@@ -8,6 +8,6 @@
 * ~~If there is no other option then display the end result~~
 * ~~Clicking an option should get the index of that choice and put that up onto the screen~~
 * ~~Add timed translations via css clicks of options~~
-* Alternate colors for every other element
+* ~~Alternate colors for every other element~~
 * Make the widget mobile friendly and reactive
 * Make a self-referential option possible (version 2)
