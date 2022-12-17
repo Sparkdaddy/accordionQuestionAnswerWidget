@@ -117,19 +117,21 @@ export class AccordionWidget {
             // would be better with a true queue data structure but the benefit is expected to be negligible
             const item = queue.shift();
             ref = this.content;
-            for (idx of item) {
-                ref = ref[idx];
+            for (let idx of item) {
+                ref = ref.children[idx];
             }
             for (let i = 0; i < ref.children.length; i++) {
                 if (ref.children[i].answer == e.target.textContent) {
                     found = item.concat(i);
                     break;
                 }
-                queue.append(item.concat(i));
+                if (ref.children[i].children) {
+                    queue.push(item.concat(i));
+                }
             }
         }
         if (found.length == 0) {
-            throw 'referentialAnswer not found in the entire content tree. \nPlease check that it is verbatim referenced with no space differences'
+            throw `referentialAnswer, "${e.target.textContent}", not found in the entire content tree. \nPlease check that it is verbatim referenced with no space differences`
         }
         let numOfCommonElementsFromStart = 0;
         for (let i = 0; i < this.locationStack.length && i < found.length; i++) {
@@ -144,6 +146,7 @@ export class AccordionWidget {
         this.locationStack.splice(numOfCommonElementsFromStart, this.locationStack.length - numOfCommonElementsFromStart);
         found.splice(0, numOfCommonElementsFromStart);
         // append the following children
+        // timeout added to force transition/animation to occur
         setTimeout(async () => await this.appendMultipleChildren(found), 120)
         
     }

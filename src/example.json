@@ -1,0 +1,40 @@
+{
+    "text": "Beginning question",
+    "children": [
+        {
+            "answer": "object 1",
+            "text": "question 2",
+            "children": [
+                {
+                    "answer": "nested object",
+                    "text": "Terminus point"
+                },
+                {
+                    "answer": "nested object2",
+                    "text": "point with other children",
+                    "children": [
+                        {
+                            "text": "other example",
+                            "answer": "terminus points can be on arbitrary levels"
+                        }
+                    ]
+                },
+                {
+                    "answer": "self-referential",
+                    "referential": {
+                        "text": "see object 2",
+                        "referentialAnswer": "object 2"
+                    }
+                }
+            ]
+        },
+        {
+            "answer": "object 2",
+            "text": "terminus point right away"
+        },
+        {
+            "answer": "object 3",
+            "text": "other terminus"
+        }
+    ]
+}

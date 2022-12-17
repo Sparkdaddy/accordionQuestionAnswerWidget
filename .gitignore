@@ -92,3 +92,5 @@ Thumbs.db
 
 # vscode
 .vscode
+
+src/content.json
