@@ -3,7 +3,7 @@
 This widget is designed to give a question/answer or call/response feel to asking questions in a DAG type of questionnaire set.
 
 # Demo
-![](./doc/Accordion-widget.gif)
+![](./doc/Accordion-cropped.gif)
 
 # How to use it
 There are a few items that will need to be specified in order to make this component/widget workable as outlined below.
