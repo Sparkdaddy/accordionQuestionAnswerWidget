@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "test-watch": "jest --watchAll",
-    "lint": "eslint src/*.js"
+    "lint": "eslint src/*.js",
+    "build": "babel src -d dist"
   },
   "keywords": [
     "accordion",
