@@ -2,6 +2,18 @@
 
 This widget is designed to give a question/answer or call/response feel to asking questions in a DAG type of questionnaire set.
 
+# Table Of Contents
+- [AccordionWidget](#accordionwidget)
+- [Table Of Contents](#table-of-contents)
+- [Demo](#demo)
+- [How to use it](#how-to-use-it)
+  * [Html structure](#html-structure)
+    + [Templates](#templates)
+    + [Html for content](#html-for-content)
+  * [Json structure](#json-structure)
+    + [Self-referential Json](#self-referential-json)
+
+
 # Demo
 ![](./doc/Accordion-cropped.gif)
 
@@ -61,7 +73,7 @@ Html:
 </div>
 ```
 
-### Json structure
+## Json structure
 The json object to be used can be loaded from a file or a variable but must be passed into the constructor for the class as below. The structure of the json does have a recursive order to it (with an exception of the first node). There is also a self-referential structure for **terminus** nodes that will be touched on after these basics.
 
 The schema is as-follows:
